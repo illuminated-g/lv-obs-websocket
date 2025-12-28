@@ -49,6 +49,7 @@
 			<Item Name="Scene Items" Type="Folder">
 				<Item Name="GetSceneItemEnabled.lvclass" Type="LVClass" URL="../GetSceneItemEnabled/GetSceneItemEnabled.lvclass"/>
 				<Item Name="GetSceneItemID.lvclass" Type="LVClass" URL="../GetSceneItemID/GetSceneItemID.lvclass"/>
+				<Item Name="GetSceneItemTransform.lvclass" Type="LVClass" URL="../GetSceneItemTransform/GetSceneItemTransform.lvclass"/>
 				<Item Name="SetSceneItemEnabled.lvclass" Type="LVClass" URL="../SetSceneItemEnabled/SetSceneItemEnabled.lvclass"/>
 			</Item>
 			<Item Name="Sources &amp; Scenes" Type="Folder">
@@ -58,11 +59,13 @@
 				<Item Name="GetSourceScreenshot.lvclass" Type="LVClass" URL="../GetSourceScreenshot/GetSourceScreenshot.lvclass"/>
 				<Item Name="SetCurrentProgramScene.lvclass" Type="LVClass" URL="../SetCurrentProgramScene/SetCurrentProgramScene.lvclass"/>
 			</Item>
+			<Item Name="JSONRequest.lvclass" Type="LVClass" URL="../JSONRequest/JSONRequest.lvclass"/>
 		</Item>
 		<Item Name="BatchRequest.lvclass" Type="LVClass" URL="../BatchRequest/BatchRequest.lvclass"/>
 		<Item Name="Identify.lvclass" Type="LVClass" URL="../Identify/Identify.lvclass"/>
 	</Item>
 	<Item Name="Data Types" Type="Folder">
+		<Item Name="Alignment.ctl" Type="VI" URL="../Alignment.ctl"/>
 		<Item Name="Authentication.ctl" Type="VI" URL="../Authentication.ctl"/>
 		<Item Name="Batch Execution Type.ctl" Type="VI" URL="../Batch Execution Type.ctl"/>
 		<Item Name="Client Operation.ctl" Type="VI" URL="../Client Operation.ctl"/>
@@ -123,4 +126,5 @@
 		<Item Name="Server Op Num.vi" Type="VI" URL="../Server Op Num.vi"/>
 	</Item>
 	<Item Name="OBS.lvclass" Type="LVClass" URL="../OBS/OBS.lvclass"/>
+	<Item Name="Transform.lvclass" Type="LVClass" URL="../Transform/Transform.lvclass"/>
 </Library>

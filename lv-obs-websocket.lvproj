@@ -16,8 +16,8 @@
 			<Item Name="Crypto.lvlib" Type="Library" URL="../../lv-web-crypto/lv-crypto/Crypto/Crypto.lvlib"/>
 			<Item Name="Promises.lvlib" Type="Library" URL="../../lv-promises/Promises/Promises.lvlib"/>
 		</Item>
+		<Item Name="obs-scratch.lvlib" Type="Library" URL="../obs-scratch/obs-scratch.lvlib"/>
 		<Item Name="obs-websocket.lvlib" Type="Library" URL="../obs-websocket/obs-websocket.lvlib"/>
-		<Item Name="Scratch.vi" Type="VI" URL="../Scratch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
